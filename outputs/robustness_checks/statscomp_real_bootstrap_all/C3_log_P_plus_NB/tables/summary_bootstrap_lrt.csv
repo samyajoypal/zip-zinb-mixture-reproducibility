@@ -1,0 +1,2 @@
+Dataset,Link,RestrictedModel,mean_BootstrapPValue,sd_BootstrapPValue,n_BootstrapPValue,mean_ObservedLRT,sd_ObservedLRT,n_ObservedLRT,mean_BootstrapQ95,sd_BootstrapQ95,n_BootstrapQ95
+C3,log,P+NB,0.81,0.0,1,1.497330825143763,0.0,1,7.612782167260865,0.0,1

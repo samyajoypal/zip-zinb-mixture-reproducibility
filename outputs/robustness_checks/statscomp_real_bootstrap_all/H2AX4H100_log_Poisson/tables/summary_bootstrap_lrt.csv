@@ -1,0 +1,2 @@
+Dataset,Link,RestrictedModel,mean_BootstrapPValue,sd_BootstrapPValue,n_BootstrapPValue,mean_ObservedLRT,sd_ObservedLRT,n_ObservedLRT,mean_BootstrapQ95,sd_BootstrapQ95,n_BootstrapQ95
+H2AX4H100,log,Poisson,0.01,0.0,1,165.8929367663059,0.0,1,5.7204581230676,0.0,1

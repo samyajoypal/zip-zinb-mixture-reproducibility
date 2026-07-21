@@ -1,0 +1,8 @@
+Dataset,Model,Link,Log-Likelihood,AIC,BIC,nobs,n_params,success,nit,grad_norm_inf,cov_status,min_info_eig,info_rank,message
+H2AX1H60,Poisson,log,-1584.6951980400904,3173.390396080181,3182.1809192764117,599,2,True,8,0.0004991166116781187,not_computed,nan,0,Optimization terminated successfully
+H2AX1H60,NB,log,-1266.4157692032236,2538.831538406447,2552.0173232007937,599,3,True,10,1.581341439105266e-05,not_computed,nan,0,Optimization terminated successfully
+H2AX1H60,ZIP,log,-1187.9872353467051,2383.9744706934102,2401.555517085872,599,4,True,12,0.00010196018920360927,not_computed,nan,0,Optimization terminated successfully
+H2AX1H60,ZINB,log,-1180.0527611021648,2370.1055222043296,2392.081830194907,599,5,True,22,0.00015228415860490951,not_computed,nan,0,Optimization terminated successfully
+H2AX1H60,P+NB,log,-1164.1319809356314,2340.263961871263,2366.6355314599555,599,6,True,35,8.215804904843083e-05,not_computed,nan,0,Optimization terminated successfully
+H2AX1H60,Z+P+NB,log,-1162.586630265866,2341.173260531732,2376.3353533166555,599,8,True,40,0.00372570820374743,not_computed,nan,0,Optimization terminated successfully
+H2AX1H60,ZIP--ZINB,log,-1151.8513319862209,2323.7026639724418,2367.655279953596,599,10,True,55,0.004919701678530508,not_computed,nan,0,Optimization terminated successfully

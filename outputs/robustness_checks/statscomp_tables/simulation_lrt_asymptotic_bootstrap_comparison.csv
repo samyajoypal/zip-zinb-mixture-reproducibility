@@ -1,0 +1,25 @@
+"Scenario","Dataset","RestrictedModel","AsymRejectRate","MeanAsymP","RepsAsym","Reference","BootRejectRate","MeanBootP","RepsBoot","B"
+"D1","Dataset 1","Poisson",1,0,100,"chi-bar",1,0.01,20,99
+"D1","Dataset 1","NB",1,0,100,"chi-bar",1,0.01,20,99
+"D1","Dataset 1","ZIP",1,0,100,"chi-bar",1,0.01,20,99
+"D1","Dataset 1","ZINB",1,0,100,"chi-bar",1,0.01,20,99
+"D1","Dataset 1","P+NB",1,2.45018779268405e-248,100,"chi-bar",1,0.01,20,99
+"D1","Dataset 1","Z+P+NB",1,2.17623566607298e-17,100,"chi-square",1,0.01,20,99
+"D2","Dataset 2","Poisson",1,0,100,"chi-bar",1,0.01,20,99
+"D2","Dataset 2","NB",1,0,100,"chi-bar",1,0.01,20,99
+"D2","Dataset 2","ZIP",1,0,100,"chi-bar",1,0.01,20,99
+"D2","Dataset 2","ZINB",1,1.50496149592843e-22,100,"chi-bar",1,0.01,20,99
+"D2","Dataset 2","P+NB",1,0,100,"chi-bar",1,0.01,20,99
+"D2","Dataset 2","Z+P+NB",0.99,0.000764243539338474,100,"chi-square",1,0.01,20,99
+"D3","Dataset 3","Poisson",1,0,100,"chi-bar",1,0.01,20,99
+"D3","Dataset 3","NB",1,0,100,"chi-bar",1,0.01,20,99
+"D3","Dataset 3","ZIP",1,0,100,"chi-bar",1,0.01,20,99
+"D3","Dataset 3","ZINB",1,8.70138870798156e-218,100,"chi-bar",1,0.01,20,99
+"D3","Dataset 3","P+NB",1,0,100,"chi-bar",1,0.01,20,99
+"D3","Dataset 3","Z+P+NB",1,3.81097418246755e-05,100,"chi-square",1,0.01,20,99
+"D4","Dataset 4","Poisson",1,0,100,"chi-bar",1,0.01,20,99
+"D4","Dataset 4","NB",1,0,100,"chi-bar",1,0.01,20,99
+"D4","Dataset 4","ZIP",1,0,100,"chi-bar",1,0.01,20,99
+"D4","Dataset 4","ZINB",1,7.6639207294516e-88,100,"chi-bar",1,0.01,20,99
+"D4","Dataset 4","P+NB",1,0,100,"chi-bar",1,0.01,20,99
+"D4","Dataset 4","Z+P+NB",1,7.65007726862205e-08,100,"chi-square",1,0.01,20,99

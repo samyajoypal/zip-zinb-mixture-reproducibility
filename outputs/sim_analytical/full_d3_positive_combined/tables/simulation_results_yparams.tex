@@ -1,0 +1,45 @@
+\begin{table}[!h]
+\caption{Simulation results for datasets with one regressor, an intercept, and identity link function}
+\begin{threeparttable}
+\adjustbox{max width=\textwidth}{%
+    \centering
+\begin{tabular}{lcccc}
+\toprule
+ Dataset & Parameter & True value & Mean estimate & Empirical SD \\
+\midrule
+\multirow{6}{*}{Dataset 1} & $\rho$    & 0.7000 & 0.7004 & 0.0124\\
+ & $\lambda$ & 3.5001 & 3.5004 & 0.0360\\
+ & $\pi$     & 0.3955 & 0.3959 & 0.0079\\
+ & $\varphi$ & 9.2503 & 9.2640 & 0.3792\\
+ & $\alpha$  & 1.5000 & 1.4969 & 0.1013\\
+ & $\omega$  & 0.1459 & 0.1472 & 0.0182\\
+\midrule
+\multirow{6}{*}{Dataset 2} & $\rho$    & 0.5000 & 0.4913 & 0.0566\\
+ & $\lambda$ & 4.2499 & 4.2911 & 0.8891\\
+ & $\pi$     & 0.9307 & 0.9270 & 0.0093\\
+ & $\varphi$ & 13.7505 & 13.7213 & 0.5407\\
+ & $\alpha$  & 1.0000 & 0.9913 & 0.0420\\
+ & $\omega$  & 0.6909 & 0.6951 & 0.0302\\
+\midrule
+\multirow{6}{*}{Dataset 3} & $\rho$    & 0.4000 & 0.4043 & 0.0316\\
+ & $\lambda$ & 3.4486 & 3.4455 & 0.0600\\
+ & $\pi$     & 0.5754 & 0.5782 & 0.0288\\
+ & $\varphi$ & 11.7517 & 11.7970 & 0.5400\\
+ & $\alpha$  & 1.0000 & 0.9914 & 0.0620\\
+ & $\omega$  & 0.6573 & 0.6552 & 0.0184\\
+\midrule
+\multirow{6}{*}{Dataset 4} & $\rho$    & 0.3000 & 0.2925 & 0.0314\\
+ & $\lambda$ & 7.2510 & 7.2490 & 0.0851\\
+ & $\pi$     & 0.3956 & 0.3781 & 0.0579\\
+ & $\varphi$ & 4.4993 & 4.5007 & 0.1065\\
+ & $\alpha$  & 1.0000 & 0.9893 & 0.0475\\
+ & $\omega$  & 0.3953 & 0.4000 & 0.0187\\
+\bottomrule
+\end{tabular}
+}
+      \begin{tablenotes}\footnotesize
+    \item For each parameter, the table reports the Monte Carlo mean and empirical standard deviation of the estimates across 100 simulation replicates ($n=20,000$). For parameters that depend on covariates (e.g., $\lambda_i$, $\pi_i$, $\varphi_i$, $\omega_i$), the reported ``true value'' corresponds to the Monte Carlo average of the data-generating quantities implied by the fixed regression coefficients.
+  \end{tablenotes}
+    \end{threeparttable}
+\label{tab:sim}
+\end{table}

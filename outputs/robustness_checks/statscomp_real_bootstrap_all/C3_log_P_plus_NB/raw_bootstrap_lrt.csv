@@ -1,0 +1,2 @@
+Dataset,Link,RestrictedModel,ObservedLRT,BootstrapPValue,BootstrapRepsRequested,BootstrapRepsSucceeded,BootstrapMeanLRT,BootstrapQ95,ElapsedSec
+C3,log,P+NB,1.497330825143763,0.81,99,99,3.522743993309522,7.612782167260865,175.22205352783203

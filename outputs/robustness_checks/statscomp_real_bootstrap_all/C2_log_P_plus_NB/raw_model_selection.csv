@@ -1,0 +1,8 @@
+Dataset,Model,Link,Log-Likelihood,AIC,BIC,nobs,n_params,success,nit,grad_norm_inf,cov_status,min_info_eig,info_rank,message
+C2,Poisson,log,-3528.6965528059327,7063.393105611865,7083.284671242035,5600,3,True,9,0.003809012306760451,not_computed,nan,0,Optimization terminated successfully
+C2,NB,log,-2940.5233778138727,5889.046755627745,5915.568843134638,5600,4,True,19,0.00024585481537542364,not_computed,nan,0,Optimization terminated successfully
+C2,ZIP,log,-2843.691105360311,5697.382210720622,5730.534820104239,5600,5,True,18,0.00655331838265738,not_computed,nan,0,Optimization terminated successfully
+C2,ZINB,log,-2843.690195973953,5699.380391947906,5739.163523208245,5600,6,True,38,0.0018641602715945282,not_computed,nan,0,Optimization terminated successfully
+C2,P+NB,log,-2846.2199269392604,5708.439853878521,5761.484028892307,5600,8,True,74,0.0008104196033400513,not_computed,nan,0,Optimization terminated successfully
+C2,Z+P+NB,log,-2839.722571297944,5699.445142595888,5765.75036136312,5600,10,True,58,0.02900721301102749,not_computed,nan,0,Optimization terminated successfully
+C2,ZIP--ZINB,log,-2838.5570490980476,5701.114098196095,5780.680360716774,5600,12,True,118,0.046801728156737,not_computed,nan,0,Optimization terminated successfully

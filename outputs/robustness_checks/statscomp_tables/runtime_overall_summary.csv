@@ -1,0 +1,5 @@
+"Analysis","Unit","Median minutes","Maximum minutes","Bootstrap B"
+"Synthetic bootstrap LRT","scenario/model/rep",77.8707523286343,222.308680264155,99
+"Real bootstrap LRT","dataset/link/model",1.5082548002402,4.62764476935069,99
+"Real diagnostics","all real data",NA,0.5,NA
+"Real five-fold CV","all real folds",NA,0.48,NA

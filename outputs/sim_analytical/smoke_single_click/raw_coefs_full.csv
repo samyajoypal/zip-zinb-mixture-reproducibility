@@ -1,0 +1,9 @@
+Scenario,Dataset,Rep,Coefficient,CoefficientLatex,true,estimate
+D1,Dataset 1,0,beta_z[0],$\beta_{10}$,2.0,1.649847110027633
+D1,Dataset 1,0,beta_z[1],$\beta_{11}$,1.0,1.2605793601964057
+D1,Dataset 1,0,gamma_z[0],$\gamma_{10}$,-2.0,-1.317672213658261
+D1,Dataset 1,0,gamma_z[1],$\gamma_{11}$,1.0,0.4724991670549639
+D1,Dataset 1,0,beta_nb[0],$\beta_{20}$,4.0,1.5721832964226317
+D1,Dataset 1,0,beta_nb[1],$\beta_{21}$,3.5,6.610141654415623
+D1,Dataset 1,0,gamma_nb[0],$\gamma_{20}$,1.0,-24.999999999771283
+D1,Dataset 1,0,gamma_nb[1],$\gamma_{21}$,-3.0,8.809141098564666

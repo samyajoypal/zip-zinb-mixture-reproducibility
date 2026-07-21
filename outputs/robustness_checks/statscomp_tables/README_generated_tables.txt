@@ -1,0 +1,27 @@
+Generated Statistics & Computing robustness tables
+Date: 2026-07-21 11:41:08.391287
+CSV output: outputs/robustness_checks/statscomp_tables
+LaTeX fragments: outputs/robustness_checks/statscomp_tables/latex_fragments
+Copied figures: outputs/robustness_checks/statscomp_tables/figures/robustness
+
+Main generated LaTeX fragments:
+synthetic_bootstrap_lrt_summary.tex
+simulation_lrt_asymptotic_bootstrap_matrix.tex
+simulation_lrt_asymptotic_bootstrap_comparison.tex
+real_bootstrap_lrt_decision_matrix.tex
+real_lrt_asymptotic_bootstrap_matrix.tex
+real_lrt_asymptotic_bootstrap_full.tex
+real_cv_log_score_summary.tex
+real_diagnostic_summary.tex
+synthetic_diagnostic_summary.tex
+runtime_overall_summary.tex
+simulation_mc_replicate_runtime_summary.tex
+synthetic_bootstrap_runtime_summary_main.tex
+real_runtime_summary_main.tex
+simulation_coverage_compact.tex
+simulation_coverage_full.tex
+simulation_test_log_scores.tex
+simulation_runtime_by_model.tex
+main_real_diagnostic_panel.tex
+supplement_real_diagnostic_figures.tex
+supplement_synthetic_diagnostic_figures.tex

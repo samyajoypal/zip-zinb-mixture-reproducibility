@@ -1,0 +1,13 @@
+Scenario,Dataset,Parameter,Scale,coverage_rate,mean_se,n_intervals
+D3,Dataset 3,alpha,natural_delta,0.9,0.050738720064651,100
+D3,Dataset 3,rho,natural_delta,0.94,0.029373946545946338,100
+D3,Dataset 3,beta_nb[0],optimizer,0.97,0.3121172887575374,100
+D3,Dataset 3,beta_nb[1],optimizer,0.94,0.4304325098505211,100
+D3,Dataset 3,beta_z[0],optimizer,0.91,0.11225696438023908,100
+D3,Dataset 3,beta_z[1],optimizer,0.96,0.07173887146442173,100
+D3,Dataset 3,gamma_nb[0],optimizer,0.91,0.21983375633078772,100
+D3,Dataset 3,gamma_nb[1],optimizer,0.99,0.09859317992634338,100
+D3,Dataset 3,gamma_z[0],optimizer,0.92,0.3540162519842863,100
+D3,Dataset 3,gamma_z[1],optimizer,0.95,0.14242289776733474,100
+D3,Dataset 3,log_alpha,optimizer,0.9,0.051185071994873835,100
+D3,Dataset 3,logit_rho,optimizer,0.94,0.12230601673650826,100

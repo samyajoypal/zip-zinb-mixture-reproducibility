@@ -1,0 +1,30 @@
+\begin{table}[!h]
+\caption{Likelihood ratio test decisions for real cytogenetic datasets}
+\centering
+\adjustbox{max width=\textwidth}{%
+\begin{tabular}{llcccccc}
+\toprule
+Dataset & Link & Poisson & NB & P+NB & ZIP & ZINB & Z+P+NB \\
+\midrule
+
+\multirow{2}{*}{C2} & Identity & Reject & Reject & Reject & Reject & Reject & Reject \\
+ & \textit{Log} & Reject & Reject & Reject & Reject & Reject & Fail \\
+
+\midrule
+
+\multirow{2}{*}{C3} & Identity & Reject & Reject & Fail & Reject & Reject & Fail \\
+ & \textit{Log} & Reject & Reject & Fail & Reject & Reject & Fail \\
+
+\midrule
+
+\multirow{2}{*}{H2AX1H60} & Identity & Reject & Reject & Reject & Reject & Reject & Reject \\
+ & \textit{Log} & Reject & Reject & Reject & Reject & Reject & Reject \\
+
+\midrule
+
+\multirow{2}{*}{H2AX4H100} & Identity & Reject & Reject & Reject & Reject & Reject & Fail \\
+ & \textit{Log} & Reject & Reject & Reject & Reject & Reject & Fail \\
+\bottomrule
+\end{tabular}}
+\label{tab:lrt_real}
+\end{table}

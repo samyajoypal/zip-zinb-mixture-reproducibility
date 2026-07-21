@@ -1,0 +1,7 @@
+Scenario,Dataset,RestrictedModel,rejection_rate,n_tests
+D1,Dataset 1,Poisson,1.0,1
+D1,Dataset 1,NB,1.0,1
+D1,Dataset 1,P+NB,1.0,1
+D1,Dataset 1,ZIP,1.0,1
+D1,Dataset 1,ZINB,1.0,1
+D1,Dataset 1,Z+P+NB,0.0,1

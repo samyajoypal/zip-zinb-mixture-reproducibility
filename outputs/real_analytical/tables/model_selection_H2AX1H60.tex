@@ -1,0 +1,32 @@
+\begin{table}[!h]
+\caption{Comparison of count regression models on Dataset H2AX1H60. NB denotes the Negative Binomial model with NB2 parameterization.}
+\centering
+\begin{tabular}{llrrr}
+\toprule
+Model & Link & Log-Likelihood & AIC & BIC \\
+\midrule
+\multirow[t]{2}{*}{Poisson} & identity & -1590.3284 & 3184.6568 & 3193.4474 \\
+ & \textit{log} & \textit{-1584.6952} & \textit{3173.3904} & \textit{3182.1809} \\
+
+\multirow[t]{2}{*}{NB} & identity & -1267.4562 & 2540.9123 & 2554.0981 \\
+ & \textit{log} & \textit{-1266.4158} & \textit{2538.8315} & \textit{2552.0173} \\
+
+\multirow[t]{2}{*}{ZIP} & identity & -1188.3167 & 2384.6334 & 2402.2145 \\
+ & \textit{log} & \textit{-1187.9872} & \textit{2383.9745} & \textit{2401.5555} \\
+
+\multirow[t]{2}{*}{ZINB} & identity & -1180.3106 & 2370.6212 & 2392.5975 \\
+ & \textit{log} & \textit{-1180.0528} & \textit{2370.1055} & \textit{2392.0818} \\
+
+\multirow[t]{2}{*}{P+NB} & identity & -1170.6220 & 2353.2440 & 2379.6156 \\
+ & \textit{log} & \textit{-1164.1320} & \textit{2340.2640} & \textbf{\textit{2366.6355}} \\
+
+\multirow[t]{2}{*}{Z+P+NB} & identity & -1165.9817 & 2347.9634 & 2383.1255 \\
+ & \textit{log} & \textit{-1162.5867} & \textit{2341.1734} & \textit{2376.3354} \\
+
+\multirow[t]{2}{*}{ZIP--ZINB} & identity & \textbf{-1151.5406} & \textbf{2323.0811} & \textbf{2367.0337} \\
+ & \textit{log} & \textbf{\textit{-1151.8496}} & \textbf{\textit{2323.6991}} & \textit{2367.6517} \\
+
+\bottomrule
+\end{tabular}
+\label{tab:H2AX1H60}
+\end{table}

@@ -1,0 +1,69 @@
+\begin{sidewaystable}[!p]
+\centering
+\caption{Count-regression beta, zero-inflation gamma, and scalar parameter estimates for the $\gamma$-H2AX datasets. The scalar columns report natural-scale $\rho$ and $\alpha$. NB denotes the NB2 parameterization.}
+\label{tab:H2AX_model_betas}
+
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+
+\resizebox{0.98\textheight}{!}{%
+\begin{tabular}{l l l c c c c c c c c c c c c}
+\toprule
+Data & Model & Link
+& \multicolumn{2}{c}{Scalars}
+& \multicolumn{4}{c}{Poisson/ZIP component}
+& \multicolumn{4}{c}{NB/ZINB component}
+& \multicolumn{2}{c}{Shared ZI} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}\cmidrule(lr){14-15}
+& & & \multicolumn{2}{c}{} & \multicolumn{2}{c}{$\beta$} & \multicolumn{2}{c}{$\gamma$} & \multicolumn{2}{c}{$\beta$} & \multicolumn{2}{c}{$\gamma$} & \multicolumn{2}{c}{$\gamma$} \\
+& & & $\rho$ & $\alpha$ & $\beta_{0}$ & $\beta_{\mathrm{dose}}$ & $\gamma_{0}$ & $\gamma_{\mathrm{dose}}$ & $\beta_{0}$ & $\beta_{\mathrm{dose}}$ & $\gamma_{0}$ & $\gamma_{\mathrm{dose}}$ & $\gamma_{0}$ & $\gamma_{\mathrm{dose}}$ \\
+\midrule
+
+\multirow{14}{*}{\texttt{1H60}} & Poisson & identity & -- & -- & 1.5696 & 0.6203 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ & Poisson & \textit{log} & -- & -- & \textit{0.4930} & \textit{0.2591} & -- & -- & -- & -- & -- & -- & -- & -- \\
+
+ & NB & identity & -- & 1.4251 & -- & -- & -- & -- & 1.6641 & 0.5593 & -- & -- & -- & -- \\
+ & NB & \textit{log} & -- & \textit{1.4143} & -- & -- & -- & -- & \textit{0.5354} & \textit{0.2363} & -- & -- & -- & -- \\
+
+ & ZIP & identity & -- & -- & 3.6979 & 0.3759 & 0.3321 & -0.4368 & -- & -- & -- & -- & -- & -- \\
+ & ZIP & \textit{log} & -- & -- & \textit{1.3089} & \textit{0.0902} & \textit{0.3307} & \textit{-0.4362} & -- & -- & -- & -- & -- & -- \\
+
+ & ZINB & identity & -- & 0.0887 & -- & -- & -- & -- & 3.6400 & 0.3756 & 0.3005 & -0.4391 & -- & -- \\
+ & ZINB & \textit{log} & -- & \textit{0.0883} & -- & -- & -- & -- & \textit{1.2927} & \textit{0.0917} & \textit{0.2983} & \textit{-0.4380} & -- & -- \\
+
+ & P+NB & identity & 0.5331 & 1.2176 & 3.4633 & 0.7383 & -- & -- & -0.1652 & 0.2203 & -- & -- & -- & -- \\
+ & P+NB & \textit{log} & \textit{0.5139} & \textit{1.9399} & \textit{1.2469} & \textit{0.1700} & -- & -- & \textit{-6.3464} & \textit{2.2096} & -- & -- & -- & -- \\
+
+ & Z+P+NB & identity & 0.6690 & $2.094\times10^{-9}$ & 3.0147 & 0.9683 & -- & -- & 5.6909 & -1.4699 & -- & -- & 0.4706 & -0.5746 \\
+ & Z+P+NB & \textit{log} & \textit{0.6672} & $\mathit{2.062\times10^{-9}}$ & \textit{1.1000} & \textit{0.2309} & -- & -- & \textit{2.1225} & \textit{-0.6434} & -- & -- & \textit{0.4733} & \textit{-0.5854} \\
+
+ & ZIP--ZINB & identity & 0.4942 & $1.907\times10^{-7}$ & -0.2899 & 2.2051 & 25.0000 & -11.4395 & 5.3427 & -1.2583 & -23.6741 & 7.7502 & -- & -- \\
+ & ZIP--ZINB & \textit{log} & \textit{0.4875} & $\mathit{2.226\times10^{-9}}$ & \textit{-2.9153} & \textit{1.5906} & \textit{25.0000} & \textit{-11.2497} & \textit{1.7890} & \textit{-0.3903} & \textit{-20.8208} & \textit{6.8197} & -- & -- \\
+
+\midrule
+
+\multirow{14}{*}{\texttt{4H100}} & Poisson & identity & -- & -- & 2.0100 & 1.0430 & -- & -- & -- & -- & -- & -- & -- & -- \\
+ & Poisson & \textit{log} & -- & -- & \textit{0.8475} & \textit{0.2658} & -- & -- & -- & -- & -- & -- & -- & -- \\
+
+ & NB & identity & -- & 0.0458 & -- & -- & -- & -- & 2.0120 & 1.0417 & -- & -- & -- & -- \\
+ & NB & \textit{log} & -- & \textit{0.0457} & -- & -- & -- & -- & \textit{0.8473} & \textit{0.2660} & -- & -- & -- & -- \\
+
+ & ZIP & identity & -- & -- & 2.4601 & 1.0552 & -1.6350 & -0.2458 & -- & -- & -- & -- & -- & -- \\
+ & ZIP & \textit{log} & -- & -- & \textit{1.0270} & \textit{0.2333} & \textit{-1.6279} & \textit{-0.2506} & -- & -- & -- & -- & -- & -- \\
+
+ & ZINB & identity & -- & $5.088\times10^{-9}$ & -- & -- & -- & -- & 2.4601 & 1.0552 & -1.6350 & -0.2458 & -- & -- \\
+ & ZINB & \textit{log} & -- & $\mathit{2.077\times10^{-9}}$ & -- & -- & -- & -- & \textit{1.0270} & \textit{0.2333} & \textit{-1.6279} & \textit{-0.2506} & -- & -- \\
+
+ & P+NB & identity & 0.8878 & $1.812\times10^{4}$ & 2.4323 & 1.0664 & -- & -- & $9.986\times10^{-9}$ & $1.971\times10^{-11}$ & -- & -- & -- & -- \\
+ & P+NB & \textit{log} & \textit{0.8835} & \textit{13.1012} & \textit{1.0191} & \textit{0.2377} & -- & -- & \textit{-39.7588} & \textit{13.0117} & -- & -- & -- & -- \\
+
+ & Z+P+NB & identity & 1.0000 & $1.841\times10^{4}$ & 2.4601 & 1.0552 & -- & -- & -0.0030 & 0.0051 & -- & -- & -1.6350 & -0.2458 \\
+ & Z+P+NB & \textit{log} & \textit{1.0000} & $\mathit{1.619\times10^{-5}}$ & \textit{1.0270} & \textit{0.2333} & -- & -- & \textit{1.0016} & \textit{0.2247} & -- & -- & \textit{-1.6279} & \textit{-0.2506} \\
+
+ & ZIP--ZINB & identity & 0.8861 & $1.156\times10^{-6}$ & 2.4495 & 1.0701 & -4.2224 & 0.5853 & 5.0918 & 0.0967 & 25.0000 & -10.8497 & -- & -- \\
+ & ZIP--ZINB & \textit{log} & \textit{0.8859} & $\mathit{7.439\times10^{-6}}$ & \textit{1.0265} & \textit{0.2354} & \textit{-4.2231} & \textit{0.5848} & \textit{0.7259} & \textit{0.3193} & \textit{25.0000} & \textit{-10.8190} & -- & -- \\
+\bottomrule
+\end{tabular}
+}%
+\end{sidewaystable}

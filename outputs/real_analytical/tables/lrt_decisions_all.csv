@@ -1,0 +1,9 @@
+Dataset,Link,Poisson,NB,P+NB,ZIP,ZINB,Z+P+NB
+C2,identity,Reject,Reject,Reject,Reject,Reject,Reject
+C2,log,Reject,Reject,Reject,Reject,Reject,Fail
+C3,identity,Reject,Reject,Fail,Reject,Reject,Fail
+C3,log,Reject,Reject,Fail,Reject,Reject,Fail
+H2AX1H60,identity,Reject,Reject,Reject,Reject,Reject,Reject
+H2AX1H60,log,Reject,Reject,Reject,Reject,Reject,Reject
+H2AX4H100,identity,Reject,Reject,Reject,Reject,Reject,Fail
+H2AX4H100,log,Reject,Reject,Reject,Reject,Reject,Fail

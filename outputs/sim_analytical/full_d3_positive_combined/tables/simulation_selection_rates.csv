@@ -1,0 +1,5 @@
+Scenario,Dataset,aic_selection_rate,bic_selection_rate,n_reps
+D1,Dataset 1,1.0,1.0,100
+D2,Dataset 2,1.0,0.92,100
+D3,Dataset 3,1.0,0.96,100
+D4,Dataset 4,1.0,1.0,100

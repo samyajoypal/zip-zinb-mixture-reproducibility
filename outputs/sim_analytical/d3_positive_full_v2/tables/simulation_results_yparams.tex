@@ -1,0 +1,45 @@
+\begin{table}[!h]
+\caption{Simulation results for datasets with one regressor, an intercept, and identity link function}
+\begin{threeparttable}
+\adjustbox{max width=\textwidth}{%
+    \centering
+\begin{tabular}{lcccc}
+\toprule
+ Dataset & Parameter & True value & Mean estimate & Empirical SD \\
+\midrule
+\multirow{6}{*}{Dataset 1} & $\rho$    & -- & -- & --\\
+ & $\lambda$ & -- & -- & --\\
+ & $\pi$     & -- & -- & --\\
+ & $\varphi$ & -- & -- & --\\
+ & $\alpha$  & -- & -- & --\\
+ & $\omega$  & -- & -- & --\\
+\midrule
+\multirow{6}{*}{Dataset 2} & $\rho$    & -- & -- & --\\
+ & $\lambda$ & -- & -- & --\\
+ & $\pi$     & -- & -- & --\\
+ & $\varphi$ & -- & -- & --\\
+ & $\alpha$  & -- & -- & --\\
+ & $\omega$  & -- & -- & --\\
+\midrule
+\multirow{6}{*}{Dataset 3} & $\rho$    & 0.4000 & 0.4043 & 0.0316\\
+ & $\lambda$ & 3.4486 & 3.4455 & 0.0600\\
+ & $\pi$     & 0.5754 & 0.5782 & 0.0288\\
+ & $\varphi$ & 11.7517 & 11.7970 & 0.5400\\
+ & $\alpha$  & 1.0000 & 0.9914 & 0.0620\\
+ & $\omega$  & 0.6573 & 0.6552 & 0.0184\\
+\midrule
+\multirow{6}{*}{Dataset 4} & $\rho$    & -- & -- & --\\
+ & $\lambda$ & -- & -- & --\\
+ & $\pi$     & -- & -- & --\\
+ & $\varphi$ & -- & -- & --\\
+ & $\alpha$  & -- & -- & --\\
+ & $\omega$  & -- & -- & --\\
+\bottomrule
+\end{tabular}
+}
+      \begin{tablenotes}\footnotesize
+    \item For each parameter, the table reports the Monte Carlo mean and empirical standard deviation of the estimates across 100 simulation replicates ($n=20,000$). For parameters that depend on covariates (e.g., $\lambda_i$, $\pi_i$, $\varphi_i$, $\omega_i$), the reported ``true value'' corresponds to the Monte Carlo average of the data-generating quantities implied by the fixed regression coefficients.
+  \end{tablenotes}
+    \end{threeparttable}
+\label{tab:sim}
+\end{table}

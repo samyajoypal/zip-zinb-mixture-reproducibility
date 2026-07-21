@@ -1,0 +1,32 @@
+\begin{table}[!h]
+\caption{Comparison of count regression models on Dataset C2. NB denotes the Negative Binomial model with NB2 parameterization.}
+\centering
+\begin{tabular}{llrrr}
+\toprule
+Model & Link & Log-Likelihood & AIC & BIC \\
+\midrule
+\multirow[t]{2}{*}{Poisson} & identity & -3526.9040 & 7059.8080 & 7079.6996 \\
+ & \textit{log} & \textit{-3528.6966} & \textit{7063.3931} & \textit{7083.2847} \\
+
+\multirow[t]{2}{*}{NB} & identity & -2939.4509 & 5886.9018 & 5913.4239 \\
+ & \textit{log} & \textit{-2940.5234} & \textit{5889.0468} & \textit{5915.5688} \\
+
+\multirow[t]{2}{*}{ZIP} & identity & -2843.3677 & \textbf{5696.7353} & \textbf{5729.8879} \\
+ & \textit{log} & \textit{-2843.6911} & \textbf{\textit{5697.3822}} & \textbf{\textit{5730.5348}} \\
+
+\multirow[t]{2}{*}{ZINB} & identity & -2843.3665 & 5698.7329 & 5738.5160 \\
+ & \textit{log} & \textit{-2843.6906} & \textit{5699.3812} & \textit{5739.1643} \\
+
+\multirow[t]{2}{*}{P+NB} & identity & -2845.6015 & 5707.2029 & 5760.2471 \\
+ & \textit{log} & \textit{-2842.9132} & \textit{5701.8264} & \textit{5754.8706} \\
+
+\multirow[t]{2}{*}{Z+P+NB} & identity & -2843.2301 & 5706.4601 & 5772.7653 \\
+ & \textit{log} & \textit{-2839.7226} & \textit{5699.4452} & \textit{5765.7504} \\
+
+\multirow[t]{2}{*}{ZIP--ZINB} & identity & \textbf{-2839.9729} & 5703.9459 & 5783.5121 \\
+ & \textit{log} & \textbf{\textit{-2838.5567}} & \textit{5701.1133} & \textit{5780.6796} \\
+
+\bottomrule
+\end{tabular}
+\label{tab:C2}
+\end{table}

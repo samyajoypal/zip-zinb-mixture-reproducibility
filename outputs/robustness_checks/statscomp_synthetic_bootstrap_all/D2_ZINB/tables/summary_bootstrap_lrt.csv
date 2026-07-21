@@ -1,0 +1,2 @@
+Scenario,Dataset,RestrictedModel,mean_BootstrapPValue,sd_BootstrapPValue,n_BootstrapPValue,mean_ObservedLRT,sd_ObservedLRT,n_ObservedLRT,mean_BootstrapQ95,sd_BootstrapQ95,n_BootstrapQ95
+D2,Dataset 2,ZINB,0.010000000000000002,1.7797887332061147e-18,20,124.69045727157099,19.991440960525505,20,13.79771547777436,1.3103812978222633,20
